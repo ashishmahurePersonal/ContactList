@@ -19,15 +19,33 @@ export default class AddContact extends React.Component {
 					<form>
 						<div className="form-group">
 							<label>Full Name</label>
-							<input name="fullname" type="text" className="form-control" placeholder="Full Name" />
+							<input
+								name="fullname"
+								type="text"
+								className="form-control"
+								placeholder="Full Name"
+								required
+							/>
 						</div>
 						<div className="form-group">
 							<label>Email</label>
-							<input name="email" type="email" className="form-control" placeholder="Enter email" />
+							<input
+								name="email"
+								type="email"
+								className="form-control"
+								placeholder="Enter email"
+								required
+							/>
 						</div>
 						<div className="form-group">
 							<label>Phone</label>
-							<input name="phone" type="phone" className="form-control" placeholder="Enter phone" />
+							<input
+								name="phone"
+								type="phone"
+								className="form-control"
+								placeholder="Enter phone"
+								required
+							/>
 						</div>
 						<div className="form-group">
 							<label>Address</label>
@@ -44,7 +62,7 @@ export default class AddContact extends React.Component {
 							{({ store, actions }) => {
 								return (
 									<button
-										type="button"
+										type="submit"
 										className="btn btn-primary form-control"
 										onClick={() => {
 											let fullname = document.querySelector("[name=fullname]").value.trim();
@@ -52,13 +70,16 @@ export default class AddContact extends React.Component {
 											let phone = document.querySelector("[name=phone]").value.trim();
 											let address = document.querySelector("[name=address]").value.trim();
 											let gender = document.querySelector("[name=gender]").value;
-											if (phone === "") phone = null;
 											if (address === "") address = null;
+											if (fullname == "" || email == "" || phone == "") {
+												return true;
+											}
+
 											actions.addContact(fullname, email, phone, address, gender, this.props);
 											this.setState({ status: "Contact Sent" });
 											document.querySelector("form").reset();
 										}}>
-										POST
+										Add Contact
 									</button>
 								);
 							}}

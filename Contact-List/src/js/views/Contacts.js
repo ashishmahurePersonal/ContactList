@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import ContactCard from "../component/ContactCard.js";
-import Modal from "../component/Modal";
 import { Context } from "../store/appContext.js";
 
 export default class Contacts extends React.Component {
@@ -35,7 +34,8 @@ export default class Contacts extends React.Component {
 												phone={item.phone}
 												address={item.address}
 												image_url={item.image_url}
-												onDelete={() => actions.deleteContact(item.id)}
+												rowIndex={index}
+												onDelete={() => actions.deleteContact(index)}
 											/>
 										);
 									});
@@ -44,7 +44,6 @@ export default class Contacts extends React.Component {
 						</ul>
 					</div>
 				</div>
-				<Modal show={this.state.showModal} onClose={() => this.setState({ showModal: false })} />
 			</div>
 		);
 	}

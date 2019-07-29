@@ -7,7 +7,7 @@ class ContactCard extends React.Component {
 		return (
 			<li className="list-group-item">
 				<div className="row w-100">
-					<div className="col-12 col-sm-6 col-md-3 px-0">
+					<div className="col-12 col-sm-6 col-md-2 px-0">
 						<img
 							src={this.props.image_url}
 							alt={this.props.fullname}
@@ -16,7 +16,7 @@ class ContactCard extends React.Component {
 					</div>
 					<div className="col-12 col-sm-6 col-md-9 text-center text-sm-left">
 						<div className=" float-right">
-							<Link to={"/edit/" + this.props.email}>
+							<Link to={"/edit/" + this.props.email + "/" + this.props.rowIndex}>
 								<button className="btn">
 									<i className="fas fa-pencil-alt mr-3" />
 								</button>
@@ -27,7 +27,14 @@ class ContactCard extends React.Component {
 								</button>
 							</Link>
 						</div>
-						<label className="name lead">{this.props.fullname}</label>
+						<strong className="name lead">{this.props.fullname}</strong>
+						<span
+							className="fa fa-envelope fa-fw text-muted mr-3"
+							data-toggle="tooltip"
+							data-original-title=""
+							title=""
+						/>
+						<span className="text-muted small text-truncate">{this.props.email}</span>
 						<br />
 						<i className="fas fa-map-marker-alt text-muted mr-3" />
 						<span className="text-muted">{this.props.address}</span>
@@ -39,14 +46,6 @@ class ContactCard extends React.Component {
 							data-original-title="(870) 288-4149"
 						/>
 						<span className="text-muted small">{this.props.phone}</span>
-						<br />
-						<span
-							className="fa fa-envelope fa-fw text-muted mr-3"
-							data-toggle="tooltip"
-							data-original-title=""
-							title=""
-						/>
-						<span className="text-muted small text-truncate">{this.props.email}</span>
 					</div>
 				</div>
 			</li>
@@ -65,7 +64,8 @@ ContactCard.propTypes = {
 	address: PropTypes.string,
 	image_url: PropTypes.string,
 	history: PropTypes.object,
-	onDelete: PropTypes.func
+	onDelete: PropTypes.func,
+	rowIndex: PropTypes.any
 };
 
 /**

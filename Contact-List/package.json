@@ -1,29 +1,18 @@
 {
-	"name": "react-hello-webapp",
-	"version": "1.0.1",
+	"name": "react-contact-list",
+	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"c9": "webpack-dev-server --config webpack.dev.js --host $IP --port $PORT",
-		"start": "webpack-dev-server --config webpack.dev.js --hot",
+		"start": "webpack-dev-server --config webpack.dev.js --open",
 		"gitpod": "webpack-dev-server --config webpack.dev.js --host 0.0.0.0 --port 3000",
 		"build": "webpack --config webpack.prod.js",
 		"deploy": "node deploy-to-github.js"
 	},
 	"author": {
-		"name": "Alejandro Sanchez",
-		"url": "http://alesanchezr.com/"
+		"name": "Ashish Mahure"
 	},
-	"contributors": [
-		{
-			"name": "Alejandro Sanchez",
-			"url": "http://alesanchezr.com/"
-		},
-		{
-			"name": "Ignacio Cordoba",
-			"url": "http://github.com/nachovz"
-		}
-	],
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/cli": "^7.4.3",

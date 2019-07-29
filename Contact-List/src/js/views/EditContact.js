@@ -16,13 +16,12 @@ export default class EditContact extends React.Component {
 		return (
 			<Context.Consumer>
 				{({ store, actions }) => {
-					let paramID = this.props.match.params.theid;
-					let contact = store.contactList.filter(item => item.email === paramID);
-					contact = contact[0];
+					const rowID = this.props.match.params.rowId;
+					let contact = store.contactList[rowID];
 					return (
 						<div className="container">
 							<div>
-								<h1 className="text-center mt-5">Add a new contact</h1>
+								<h1 className="text-center mt-5">Update contact</h1>
 								<form>
 									<div className="form-group">
 										<label>Full Name</label>
@@ -77,13 +76,13 @@ export default class EditContact extends React.Component {
 										<button
 											type="button"
 											className="btn btn-primary form-control"
-											onClick={() => {
+											onClick={e => {
 												let fullname = document.querySelector("[name=fullname]").value.trim();
 												let email = document.querySelector("[name=email]").value.trim();
 												let phone = document.querySelector("[name=phone]").value.trim();
 												let address = document.querySelector("[name=address]").value.trim();
 												actions.updateContact(
-													contact.id,
+													rowID,
 													fullname,
 													email,
 													phone,

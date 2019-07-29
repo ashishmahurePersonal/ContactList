@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-// import ScrollToTop from "./component/scrollToTop";
-
 import injectContext from "./store/appContext";
 
 import Contacts from "./views/Contacts.js";
 import AddContact from "./views/AddContact.js";
 import EditContact from "./views/EditContact.js";
+
+// import ScrollToTop from "./component/scrollToTop";
 
 export class Layout extends React.Component {
 	render() {
@@ -19,7 +19,7 @@ export class Layout extends React.Component {
 							<Route exact path="/" component={Contacts} />
 							<Route exact path="/contacts" component={Contacts} />
 							<Route exact path="/add" component={AddContact} />
-							<Route exact path="/edit/:theid" component={EditContact} />
+							<Route exact path="/edit/:theid/:rowId" component={EditContact} />
 							<Route render={() => <h1 className="notfound">Not found!</h1>} />
 						</Switch>
 					</div>
