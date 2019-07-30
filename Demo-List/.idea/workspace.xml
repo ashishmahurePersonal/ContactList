@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5d5685-4931-4caa-8187-e11e108559b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo-List/src/js/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo-List/src/js/store/appContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo-List/src/js/store/flux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo-List/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/.github/settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitpod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/.gitpod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4geeks.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/4geeks.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy-to-github.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/deploy-to-github.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/component/ContactCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/store/appContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/store/flux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/views/AddContact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/views/Contacts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/views/EditContact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,7 +15,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Demo-List/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -92,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/../Demo-List/src/js/component/TimeLineYearsDetails.js" />
         <option value="$PROJECT_DIR$/../Demo-List/src/styles/index.scss" />
+        <option value="$PROJECT_DIR$/../Demo-List/package.json" />
       </list>
     </option>
   </component>
@@ -161,15 +144,16 @@
       <option name="presentableId" value="Default" />
       <updated>1564393605665</updated>
       <workItem from="1564393607093" duration="10789000" />
-      <workItem from="1564477485087" duration="9040000" />
+      <workItem from="1564477485087" duration="9403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19829000" />
+    <option name="totallyTimeSpent" value="20192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -326,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Demo-List/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Demo-List/src/js/component/TimeLineYearsDetails.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -371,6 +348,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Demo-List/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>

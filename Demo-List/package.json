@@ -1,9 +1,12 @@
 {
 	"name": "react-contact-list",
 	"version": "1.0.0",
-	"description":"",
 	"private": true,
+	"description": "",
+	"main": "index.js",
+
 	"scripts": {
+		"c9": "webpack-dev-server --config webpack.dev.js --host $IP --port $PORT",
 		"start": "webpack-dev-server --config webpack.dev.js --open",
 		"gitpod": "webpack-dev-server --config webpack.dev.js --host 0.0.0.0 --port 3000",
 		"build": "webpack --config webpack.prod.js",
@@ -12,6 +15,7 @@
 	"author": {
 		"name": "Ashish Mahure"
 	},
+	"license": "ISC",
 	"devDependencies": {
 		"@babel/cli": "^7.4.3",
 		"@babel/core": "^7.4.3",
