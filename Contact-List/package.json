@@ -1,8 +1,8 @@
 {
 	"name": "react-contact-list",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description":'',
+	"private": true,
 	"scripts": {
 		"c9": "webpack-dev-server --config webpack.dev.js --host $IP --port $PORT",
 		"start": "webpack-dev-server --config webpack.dev.js --open",
