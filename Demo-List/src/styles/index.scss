@@ -1,0 +1,50 @@
+/* 
+    General Styles
+*/
+.yearBlock{
+  display: inline-block;
+  margin-left: 40px;
+  color: indianred;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.rounded-circle{
+  width:90px !important;
+}
+
+.fa-envelope{
+  margin-left: 20px !important;
+}
+
+.lead{
+  font-weight: bold !important
+}
+
+.noClour{
+  color: black !important;
+  font-size: 12px;
+}
+
+.yearBlockInfo{
+  margin: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.eachCell{
+  width: 10%;
+  float: left;
+}
+
+.fontLess{
+  font-size: 12px;
+}
+
+.dotsDisplay{
+  line-height: 7px;
+  padding-left: 15px;
+}
+.moreDetials{
+  color: darkcyan;
+}
