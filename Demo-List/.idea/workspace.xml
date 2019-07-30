@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5d5685-4931-4caa-8187-e11e108559b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Demo-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo-List/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/component/ContactCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/store/appContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/store/flux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/views/AddContact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/views/Contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/views/EditContact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/.github/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/.gitpod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitpod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/4geeks.ico" beforeDir="false" afterPath="$PROJECT_DIR$/4geeks.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/deploy-to-github.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-to-github.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/package1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo-List/package1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/src/js/component/TimeLineYears.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/src/js/component/TimeLineYearsDetails.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/src/js/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/src/js/store/appContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/src/js/store/flux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/src/js/views/TimeLIne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/src/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo-List/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,12 +49,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Demo-List/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Demo-List/package1.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -144,12 +177,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564393605665</updated>
       <workItem from="1564393607093" duration="10789000" />
-      <workItem from="1564477485087" duration="9403000" />
+      <workItem from="1564477485087" duration="9746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20192000" />
+    <option name="totallyTimeSpent" value="20535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
@@ -353,10 +386,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Demo-List/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Demo-List/package1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
